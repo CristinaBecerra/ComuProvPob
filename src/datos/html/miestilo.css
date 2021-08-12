@@ -1,0 +1,82 @@
+body{
+    color: darkblue;
+    background-color: darksalmon;
+}
+caption{
+    text-align: left;
+    margin: 15px;
+    font-weight: bold;
+}
+p{
+    display: table-cell;
+    vertical-align: top;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 3px solid black;
+}
+td{
+    text-align: right;
+    padding-left: 20px;
+}
+div{
+    border: 1px solid black;
+    height: 35px;
+    background-color: black;
+    clear:both;
+}
+div.psoe{
+    background-color: red;
+}
+div.pp{
+    background-color: blue;
+}
+div.ciudadanos{
+    background-color: orange;
+}
+div.adelante{
+    background-color: purple;
+}
+div.vox{
+    background-color: green;
+}
+div.pacma{
+    background-color: lightgreen;
+}
+td.psoe, td.pp, td.ciudadanos, td.adelante, td.vox, td.pacma {
+    background-size: auto 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    padding: 0px;
+}
+
+td.psoe{
+    background-image: url("psoe.png");
+}
+
+td.pp{
+    background-image: url("pp.png");
+}
+
+td.ciudadanos{
+    background-image: url("ciudadanos.png");
+}
+
+td.adelante{
+    background-image: url("adelante.png");
+}
+
+td.vox{
+    background-image: url("vox.png");
+}
+
+td.pacma{
+    background-image: url("pacma.png");
+}
